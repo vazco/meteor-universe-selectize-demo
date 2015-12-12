@@ -1,0 +1,3 @@
+[submodule "packages/universe-selectize"]
+	path = packages/universe-selectize
+	url = git@github.com:vazco/meteor-universe-selectize.git

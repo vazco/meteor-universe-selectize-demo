@@ -1,0 +1,36 @@
+<head>
+    <title>Universe Selectize</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="col-sm-12">
+        <h1>Universe Selectize</h1>
+
+        {{> demo}}
+    </div>
+</div>
+</body>
+
+<template name="demo">
+
+    <h2>Single</h2>
+
+
+    {{> universeSelectize name="test1" options=options multiple=false create=true}}
+
+    <pre>
+        &#123;&#123;> universeSelectize name="test1" options=options multiple=false create=true&#125;&#125;
+    </pre>
+
+    <br /><br />
+
+    <h2>Multiple</h2>
+
+    {{> universeSelectize name="test2" options=options multiple=true create=true remove=true}}
+
+    <pre>
+        &#123;&#123;> universeSelectize name="test2" options=options multiple=true create=true remove=true&#125;&#125;
+    </pre>
+
+</template>
